@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* Configurações gerais */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+/* Aparelho em pé (portrait) */
+@media screen and (orientation: portrait) {
+    body {
+        background-color: darkblue;
+    }
+}
+
+/* Aparelho deitado (landscape) */
+@media screen and (orientation: landscape) {
+    body {
+        background-color: darkgreen;
+    }
+}
